@@ -44,9 +44,10 @@ body {
 @media(max-width: 767px){
    .container .image{
     width: 100%;
-    height: 40%;
-    background-image: url("/images/image-product-mobile.jpg");
-    }
+    height: 42%;
+    background-image: url(./images/image-product-mobile.jpg);
+}
+
 }
 .container .info {
   width: 50%;
@@ -99,6 +100,11 @@ body {
   transition: 0.3s;
   cursor: pointer;
 }
+.info .add-to-cart:hover,
+.info .add-to-cart:active {
+  background-color: rgb(76, 149, 76);
+}
+
 .info .add-to-cart:hover,
 .info .add-to-cart:active {
   background-color: rgb(76, 149, 76);
